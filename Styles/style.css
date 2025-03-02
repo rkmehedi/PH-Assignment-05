@@ -76,3 +76,72 @@ flex-shrink: 0;
  /* panel color */
  .panel-style{
     background: #F4F7FF;}
+.top-dashboard-panel-1{
+    width: 263px;
+height: 128px;
+flex-shrink: 0;
+    border-radius: 12px;
+}
+.top-dashboard-panel-2{width: 524px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(92deg, #3752FD 0.25%, #6C7FFA 52.64%, #9BA8F8 99.84%);
+}
+.top-dashboard-panel-3{width: 263px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+/* taskbar p1*/
+.logo-checkbox-taskbar{width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    background: #FFFFFF;}
+    .checkbox2{ width: 28px;
+        height: 28px;}
+/* taskbar p2*/
+.text-parts-first-db{color: var(--Text, #00303C);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    opacity: 0.8;
+}
+/* taskbar p3*/
+.count-part-db-style {color: var(--Text, #00303C);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;}
+
+    /* Linear Gradient part */
+
+    .calender-class{
+        width: 79px;
+height: 79px;
+flex-shrink: 0;
+    }
+    .calender-class-text{color: #FFF;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.72px;
+        width: 298px;
+    }
+    
+    .date-time-style{
+        color: var(--Text, #00303C);
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.66px;
+    }
