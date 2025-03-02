@@ -3,3 +3,76 @@
     font-weight: 400;
     font-style: normal;
   }
+  .main-formatting{
+    width: 1536px;
+  }
+  .header-container{
+    border-radius: 16px;
+background: #FFF;
+  }
+  .background-white{
+    background: #FFFFFF ;}
+  #initial-background{
+    background: #F4F7FF;
+  }
+
+  .logo-fix{
+    width: 51.241px;
+height: 51.241px;
+flex-shrink: 0;
+  }
+  .logotitle{
+    color: var(--Text, #00303C);
+font-family: Poppins;
+font-size: 35.67px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.07px;
+  }
+  .checkbox-logo{ 
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+  }
+  .checkbox-logo-count{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.96px;
+  }
+  .checkbox-side-panel{
+    width: 123px;
+height: 64px;
+flex-shrink: 0;
+aspect-ratio: 123/64;
+    border-radius: 32px;
+background: #F4F7FF;
+  }
+  .random-color-button{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+border-radius: 32px;
+background: #F4F7FF;
+  }
+  .logo-theme{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+  }
+  /* main part first part */
+  .main-container-div{
+    width: 1146px;
+    height: 918px;
+    flex-shrink: 0;
+    border-radius: 16px;
+ }
+ /* panel color */
+ .panel-style{
+    background: #F4F7FF;}
