@@ -66,6 +66,7 @@ background: #F4F7FF;
 height: 40px;
 flex-shrink: 0;
   }
+  
   /* main part first part */
   .main-container-div{
     width: 1146px;
@@ -147,9 +148,7 @@ letter-spacing: 0.66px;
     }
 
     /* cards panel */
-    .card-panel-main-div{
-
-    }
+    
 
     /* card design 01 */
     .tasks-card-1{
@@ -267,6 +266,11 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
+            }
+            .disabled-button-style {
+                background-color: #d3d3d3;
+                color: #888888; 
+                opacity: 0.5;
             }
 
 /* right side panel */

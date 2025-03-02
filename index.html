@@ -36,11 +36,11 @@
         <div class="header-button-side flex gap-[38px]">
             <div><div class="checkbox-side-panel flex justify-center items-center gap-[6px]">
                <img src="assets/checkbox.png" alt="checkbox logo" class="checkbox-logo">
-               <h2 class="checkbox-logo-count">23</h3> </div>
+               <h2 class="checkbox-logo-count" id="total-counter-top">23</h2> </div>
             </div>
             <div class="random-color-button flex justify-center items-center">
                 <!-- color button part -->
-                 <button id="color-btn">  <img src="assets/theme-btn.png" alt="Color button" class="logo-theme">
+                 <button id="color-btn" onclick="myRandomColor()">  <img src="assets/theme-btn.png" alt="Color button" class="logo-theme">
                  </button>
             </div>
 
@@ -75,8 +75,10 @@
                     <div class="logo-checkbox-taskbar rounded-full flex justify-center items-center">
                         <img class="checkbox2" src="assets/calender.png" alt="calender logo">
                     </div>
-                    <h2 id="date-time" class="date-time-style" >Wed <span class=" font-bold">,<br>
-                        Jul 28 2025 </span></h2>
+                    <h2 id="date-time" class="date-time-style">
+                        <span id="onlyDay"></span><span class="font-bold"> ,</span><br>
+                        <span class="font-bold" id="rest-date"></span>
+                    </h2>
                  </div></div>
 
                  <hr class="dashed-line2">
@@ -100,7 +102,7 @@
                                     <h2 class="deadline-date">21 March 2025</h2>
                                 </div>
                                 
-                                <button class="complete-button" id="complete-button-action">Completed</button>
+                                <button class="complete-button" id="complete-button-action1" onclick="completedTask(1)">Completed</button>
                             </div>
 
                          </div>
@@ -121,7 +123,7 @@
                                     <h2 class="deadline-date">21 March 2025</h2>
                                 </div>
                                 
-                                <button class="complete-button" id="complete-button-action">Completed</button>
+                                <button class="complete-button" id="complete-button-action2" onclick="completedTask(2)">Completed</button>
                             </div>
 
                          </div>
@@ -143,7 +145,7 @@
                                     <h2 class="deadline-date">21 March 2025</h2>
                                 </div>
                                 
-                                <button class="complete-button" id="complete-button-action">Completed</button>
+                                <button class="complete-button" id="complete-button-action3" onclick="completedTask(3)">Completed</button>
                             </div>
 
                          </div>
@@ -165,7 +167,7 @@
                                     <h2 class="deadline-date">21 March 2025</h2>
                                 </div>
                                 
-                                <button class="complete-button" id="complete-button-action">Completed</button>
+                                <button class="complete-button" id="complete-button-action4" onclick="completedTask(4)">Completed</button>
                             </div>
 
                          </div>
@@ -187,7 +189,7 @@
                                     <h2 class="deadline-date">21 March 2025</h2>
                                 </div>
                                 
-                                <button class="complete-button" id="complete-button-action">Completed</button>
+                                <button class="complete-button" id="complete-button-action5" onclick="completedTask(5)">Completed</button>
                             </div>
 
                          </div>
@@ -209,7 +211,7 @@
                                     <h2 class="deadline-date">21 March 2025</h2>
                                 </div>
                                 
-                                <button class="complete-button" id="complete-button-action">Completed</button>
+                                <button class="complete-button" id="complete-button-action6" onclick="completedTask(6)">Completed</button>
                             </div>
 
                          </div>
@@ -228,14 +230,12 @@
                         <h3 class="activity-logo-text">Activity Log</h3>
                     </div>
                     <!-- clear button -->
-                     <button class="clear-button">Clear History</button>
+                     <button class="clear-button" id="clear-action-button">Clear History</button>
                 </div>
                 <hr class="dashed-line3">
 
-                <div class="controller-auto-input">
-                    <h3 class="auto-message">You have Complete The Task Add Dark Mode at 12:48:15 PM</h3>
-                    <h3 class="auto-message">You have Complete The Task Add Dark Mode at 12:48:15 PM</h3>
-                    <h3 class="auto-message">You have Complete The Task Add Dark Mode at 12:48:15 PM</h3>
+                <div class="controller-auto-input" id="controlled-task">
+                    
 
                 </div>
             </div>
@@ -246,5 +246,10 @@
     <footer>
 
     </footer>
+    <script src="JS/dateTime.js"></script>
+    <script src="JS/randomColor.js"></script>
+    <script src="JS/counter.js"></script>
+    <script src="JS/clearHistory.js"></script>
+    
 </body>
 </html>
