@@ -226,7 +226,8 @@ flex-shrink: 0;
         .dashed-line3 {
             border: none;
             border-top: 1px dashed rgba(55, 82, 253, 0.20);
-           
+            margin-top: 14px;
+            margin-bottom: 25px;
             width: 366px;
             
 
@@ -276,3 +277,110 @@ flex-shrink: 0;
 border-radius: 16px;
 background: #FFF;
 }
+
+.activity-logo{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+.activity-logo-text{color: #00303C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;}
+
+    .clear-button{
+        display: inline-flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--Acent, #3752FD);
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+    }
+    .gohome-btn{
+        display: inline-flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--Acent, #3752FD);
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+    }
+    .controller-auto-input{
+        margin-left: 31px;
+        margin-right: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 28px;
+    }
+    /* auto message part */
+    .auto-message{
+        display: inline-flex;
+padding: 10px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #F4F7FF;
+opacity: 0.7;
+overflow: hidden;
+color: #000;
+text-overflow: ellipsis;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+    }
+
+    /* blogs part */
+    .blog-text{
+        color: var(--Text, #00303C);
+        font-family: Poppins;
+        font-size: 35.67px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1.07px;
+        font-weight: 900;
+        text-align: center;
+        
+    }
+    .qsn-container{
+        border-radius: 12px;
+    background: #FFF;
+    
+      }
+      .dashed-line-qsn{
+        border: none;
+        border-top: 1px dashed rgba(55, 82, 253, 0.20);
+        margin-top: 14px;
+        margin-bottom: 25px;
+        width: auto;
+      }
+      .question-heading{
+
+      }
+      .qsn-answer{
+
+      }
