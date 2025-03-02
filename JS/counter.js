@@ -8,8 +8,11 @@ completeButtons.forEach((button) => {
         if (currentTasks > 0) {
             currentTasks -= 1;
             totalCounter += 1;
-            document.getElementById("total-counter-top").textContent = totalCounter;
-            document.getElementById("count-part-db").textContent = currentTasks;
+            document.getElementById("total-counter-top").textContent =totalCounter;
+            document.getElementById("count-part-db").textContent = "0"+currentTasks;
+            if (currentTasks === 0) {
+                document.getElementById("count-part-db").textContent =currentTasks;
+            }
 
             let taskName = this.closest(".controller-card").querySelector(".card-title").textContent.trim();
 
